@@ -19,3 +19,7 @@ Diretorio criado com as configurações de build.
 # Testando aplicação
 
 1.0 - Para rodar a aplicação e preciso ***npx react-native start e npx react-native run-android***
+
+# Tutorial e como gerar e configurar chaves de um App
+
+[Site com tutorial](https://medium.com/@legalmenti.thaila/gerando-um-apk-react-native-540ad86f546b)
