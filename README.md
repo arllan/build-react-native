@@ -23,3 +23,8 @@ Diretorio criado com as configurações de build.
 # Tutorial e como gerar e configurar chaves de um App
 
 [Site com tutorial](https://medium.com/@legalmenti.thaila/gerando-um-apk-react-native-540ad86f546b)
+
+
+# Dicas
+
+[configurando aplicativo em fullscreen](https://medium.com/@ri7nz/react-native-android-window-fullscreen-bf0c7620f479)
