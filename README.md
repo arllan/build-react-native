@@ -32,3 +32,5 @@ Diretorio criado com as configurações de build.
 [Modificando a orientação da tela para 'landscape' - ultima resposta](https://stackoverflow.com/questions/40235342/react-native-landscape-mode-for-only-one-page)
 
 [Tutorial mostrando como diminuir e criptografar o apk](https://blog.rocketseat.com.br/reduzindo-o-tamanho-das-builds-para-android-no-react-native/)
+
+[Lib com ***Modal*** super funcionais](https://jeremybarbet.github.io/react-native-modalize/#/)
