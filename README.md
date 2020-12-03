@@ -34,3 +34,5 @@ Diretorio criado com as configurações de build.
 [Tutorial mostrando como diminuir e criptografar o apk](https://blog.rocketseat.com.br/reduzindo-o-tamanho-das-builds-para-android-no-react-native/)
 
 [Lib com ***Modal*** super funcionais](https://jeremybarbet.github.io/react-native-modalize/#/)
+
+[Efeito de load similar ao do facebook](https://www.youtube.com/watch?v=lI9JtRjc2Qo&t=120s)
