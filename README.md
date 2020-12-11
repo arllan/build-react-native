@@ -1,6 +1,33 @@
 # build-react-native
 Diretorio criado com as configurações de build.
 
+
+# Criando aplicação
+
+```
+npx react-native init "nome do projeto"
+
+OU forma de adicionar versão do react native 
+
+npx react-native init "nome do projeto" --version X.XX.X
+```
+
+# Rodando aplicação
+
+```
+cd 'pasta do projeto'
+npx react-native start
+```
+
+#Abrindo Simulador AVD para vistualização do sistema no aparelho - Importante fazer esse passo antes de gerar a versão do .APK
+
+```
+1-  Abra o android studio 
+2- Com a tela aberta do android studio click em 'Configure'
+3- Dentro de 'configure' selecione a opção 'AVD manager'
+4 
+```
+
 # Alterações na aplicação
 
 1.0 -  Neste diretório vai ter o arquivo para alteração do nome do aplicativo:  ***android\app\src\main\res\values\strings.xml***
