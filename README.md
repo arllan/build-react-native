@@ -17,6 +17,7 @@ npx react-native init "nome do projeto" --version X.XX.X
 ```
 cd 'pasta do projeto'
 npx react-native start
+npx react-native run-android
 ```
 
 #Abrindo Simulador AVD para vistualização do sistema no aparelho - Importante fazer esse passo antes de gerar a versão do .APK
