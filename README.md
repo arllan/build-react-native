@@ -64,3 +64,4 @@ npx react-native run-android
 [Lib com ***Modal*** super funcionais](https://jeremybarbet.github.io/react-native-modalize/#/)
 
 [Efeito de load similar ao do facebook](https://www.youtube.com/watch?v=lI9JtRjc2Qo&t=120s)
+[Lib de plugin react native](https://github.com/GeekyAnts/react-native-easy-grid)
