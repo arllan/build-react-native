@@ -65,4 +65,4 @@ npx react-native run-android
 
 [Efeito de load similar ao do facebook](https://www.youtube.com/watch?v=lI9JtRjc2Qo&t=120s)
 
-[Lib de plugin react native](https://github.com/GeekyAnts/react-native-easy-grid)
+[Lib de grid nativebase](https://github.com/GeekyAnts/react-native-easy-grid)
