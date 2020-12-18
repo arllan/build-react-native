@@ -68,3 +68,5 @@ npx react-native run-android
 [Lib de grid nativebase](https://github.com/GeekyAnts/react-native-easy-grid)
 
 [Lib de validação de formulario](https://medium.com/@mauriciosoares_2818/formik-yup-hooks-gerenciando-formul%C3%A1rios-no-react-native-bdfc7018eab9)
+
+[Validação de formulario](https://blog.logrocket.com/react-native-form-validations-with-formik-and-yup/)
