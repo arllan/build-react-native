@@ -44,6 +44,15 @@ npx react-native run-android
 
 3.1 Podemos utilizar o [site](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=android&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(68%2C%20138%2C%20255)&crop=0&backgroundShape=square&effects=none&name=ic_launcher) para gerar icones genericos nos formatos **Necessários** arredondado e quadrado com os nomes: ***ic_launcher.png e ic_launcher_round.png***
 
+# Configurações em uma aplicação
+
+> Local para alterar o nome da aplicação ***android\app\src\main\res\values -strings.xml***
+
+> Site para gerar icone na resolução especificas: [Site 1](https://apetools.webprofusion.com/#/tools/imagegorilla)
+[Site 2](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=android&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(68%2C%20138%2C%20255)&crop=0&backgroundShape=square&effects=none&name=ic_launcher) 
+
+> Local para adicionar icone do aplicativo: ***android\app\src\main\res*** vai ter varias pastas com as resoluções da aplicação
+
 # Testando aplicação
 
 1.0 - Para rodar a aplicação e preciso ***npx react-native start e npx react-native run-android***
