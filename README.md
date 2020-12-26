@@ -81,3 +81,5 @@ npx react-native run-android
 [Validação de formulario](https://blog.logrocket.com/react-native-form-validations-with-formik-and-yup/)
 
 [validação com Yup](https://bradhick.medium.com/yup-valida%C3%A7%C3%B5es-no-react-de-uma-forma-muito-simples-700c039114e3)
+
+[Tutorial de como utilizar Styled Components](https://www.youtube.com/watch?v=R3S8DEzEn6s)
