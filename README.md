@@ -62,6 +62,74 @@ npx react-native run-android
 [Site com tutorial](https://medium.com/@legalmenti.thaila/gerando-um-apk-react-native-540ad86f546b)
 
 
+# Configurações de chave e geração de app.
+
+1- Assista o vídeo do curso do sugeito programador.
+
+2- Faça o procedimento do vídeo para gerar a chave do aplicativo.
+3- No arquivo ***\android\gradle.properties*** Faça as seguintes modificações: 
+
+```javascript
+MYAPP_RELEASE_STORE_FILE=chaveApp.keystore // informa o nome do arquivo da chave
+
+MYAPP_RELEASE_KEY_ALIAS=chaveApp // informa o alias da chave que colocamos quando foi gerada
+
+MYAPP_RELEASE_STORE_PASSWORD=123456 // chave de criptografia que foi adicionado na hora que geramos
+
+MYAPP_RELEASE_KEY_PASSWORD=123456 // chave de criptografia que foi adicionado na hora que geramos
+```  
+
+4- Acesse o arquivo na pasta ***android\app\build.gradle***. Com ele aberto adicione o trecho de código ***bundleInRelease: true*** na função abaixo
+
+```javascript
+project.ext.react = [
+	enableHermes: false,
+	bundleInRelease: true // trecho adicionado a função
+]
+```
+4.1 - adicione o trecho de código logo abaixo de ***defaultConfig***. Dica e procurar o elemento pelo nome.
+
+```javascript
+signingConfigs{
+	release{
+		if(project.hasProperty('MYAPP_RELEASE_STORE_FILE')){
+			storeFile file(MYAPP_RELEASE_STORE_FILE)
+			storePassword MYAPP_RELEASE_STORE_PASSWORD
+			keyAlias MYAPP_RELEASE_KEY_ALIAS
+			keyPassword MYAPP_RELEASE_KEY_PASSWORD
+		}
+	}
+}
+```
+
+4.2 -  No trecho de código abaixo foi adicionado ***signingConfig signingConfigs.release***
+
+```javascript
+buildTypes {
+
+	debug {
+	   signingConfig signingConfigs.debug
+	}
+
+	release {
+	// Caution! In production, you need to generate your own keystore file.
+	// see https://reactnative.dev/docs/signed-apk-android.
+	signingConfig signingConfigs.debug
+	minifyEnabled enableProguardInReleaseBuilds
+	proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+	
+	signingConfig signingConfigs.release // adicionado
+	}
+
+}
+```
+
+5- Agora acesse pelo terminal a pasta android e execute o seguinte comando ***gradlew assembleRelease*** e se tudo deu certo ele vai começar a fazer a build do app.
+
+6- O apk foi gerado na seguinte pasta ***android\app\build\outputs\apk\release***
+
+
+
 # Dicas
 
 [Configurando aplicativo em fullscreen](https://medium.com/@ri7nz/react-native-android-window-fullscreen-bf0c7620f479)
