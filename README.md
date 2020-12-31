@@ -163,3 +163,5 @@ buildTypes {
 [validação com Yup](https://bradhick.medium.com/yup-valida%C3%A7%C3%B5es-no-react-de-uma-forma-muito-simples-700c039114e3)
 
 [Tutorial de como utilizar Styled Components](https://www.youtube.com/watch?v=R3S8DEzEn6s)
+
+[Tutorial de como gerar bundle em vez de apk para loja da playstore](http://www2.decom.ufop.br/terralab/como-publicar-um-aplicativo-feito-em-react-native-na-play-store/#:~:text=Gerando%20o%20AAB%20de%20Lan%C3%A7amento&text=A%20fun%C3%A7%C3%A3o%20bundleRelease%20criar%C3%A1%20um,enviado%20para%20a%20Google%20Play)
