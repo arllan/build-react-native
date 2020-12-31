@@ -128,7 +128,7 @@ buildTypes {
 
 6- O apk foi gerado na seguinte pasta ***android\app\build\outputs\apk\release***
 
-7- Para gerar o app em formato de arquivo bundle execute o seguinte trecho de código ***bundleRelease***. Lembrando que deve está dentro na pasta ***android*** para executar esse comando.
+7- Para gerar o app em formato de arquivo bundle execute o seguinte trecho de código ***bundleRelease***. Lembrando que deve está dentro na pasta ***android*** para executar esse comando. O arquivo do bundle vai estar na seguinte pasta: ***android\app\build\outputs\bundle***
 
 
 
