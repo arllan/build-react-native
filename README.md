@@ -128,6 +128,18 @@ buildTypes {
 
 6- O apk foi gerado na seguinte pasta ***android\app\build\outputs\apk\release***
 
+7- Para gerar o app em formato de arquivo bundle execute o seguinte trecho de código ***bundleRelease***. Lembrando que deve está dentro na pasta ***android*** para executar esse comando.
+
+
+
+## Aprendendo a atualizar a versão do 'apk' ou '.aab'.
+
+1 - No diretorio ***\android\app\build.gradle*** abra o arquivo e procure pelo seguinte trecho ***versionName e versionCode*** 
+
+2- Atualize ambos por uma versão mais atualizada. Sé caso estiver na versão 1 mude para 2 e assim se segue.
+
+3- Agora e só gerar o app e na playstore como nova versão de um app já existente.
+
 
 
 # Dicas
