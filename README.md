@@ -26,7 +26,6 @@ npx react-native run-android
 1-  Abra o android studio 
 2- Com a tela aberta do android studio click em 'Configure'
 3- Dentro de 'configure' selecione a opção 'AVD manager'
-4 
 ```
 
 # Alterações na aplicação
@@ -128,7 +127,7 @@ buildTypes {
 
 6- O apk foi gerado na seguinte pasta ***android\app\build\outputs\apk\release***
 
-7- Para gerar o app em formato de arquivo bundle execute o seguinte trecho de código ***bundleRelease***. Lembrando que deve está dentro na pasta ***android*** para executar esse comando. O arquivo do bundle vai estar na seguinte pasta: ***android\app\build\outputs\bundle***
+7- Para gerar o app em formato de arquivo bundle execute o seguinte trecho de código ***gradlew bundleRelease***. Lembrando que deve está dentro na pasta ***android*** para executar esse comando. O arquivo do bundle vai estar na seguinte pasta: ***android\app\build\outputs\bundle***
 
 
 
