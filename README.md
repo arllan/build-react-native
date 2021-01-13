@@ -164,3 +164,9 @@ buildTypes {
 [Tutorial de como utilizar Styled Components](https://www.youtube.com/watch?v=R3S8DEzEn6s)
 
 [Tutorial de como gerar bundle em vez de apk para loja da playstore](http://www2.decom.ufop.br/terralab/como-publicar-um-aplicativo-feito-em-react-native-na-play-store/#:~:text=Gerando%20o%20AAB%20de%20Lan%C3%A7amento&text=A%20fun%C3%A7%C3%A3o%20bundleRelease%20criar%C3%A1%20um,enviado%20para%20a%20Google%20Play)
+
+[Criando tela de splash screen](https://medium.com/@willjcpower/configurando-a-splash-screen-no-react-native-cli-android-630e4255da22)
+
+[Criando Icone de aplicativo](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=android&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(68%2C%20138%2C%20255)&crop=0&backgroundShape=square&effects=none&name=ic_launcher)
+
+[Criando formato de arte de tela de splash screen](https://apetools.webprofusion.com/#/tools/imagegorilla)
